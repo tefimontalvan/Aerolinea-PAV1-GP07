@@ -108,10 +108,12 @@ namespace TrabajoPrácticoPAV
             if (PanelMenu.Width == 150)
             {
                 PanelMenu.Width = 42;
+                Btn_Menu.Text = "→";
             }
             else
             {
                 PanelMenu.Width = 150;
+                Btn_Menu.Text = "←";
             }
         }
 
@@ -123,6 +125,11 @@ namespace TrabajoPrácticoPAV
         public void CambiarColorBoton(Button boton)
         {
             boton.BackColor = Color.FromArgb(255, 0, 0);
+        }
+
+        private void PanelFormularios_Paint(object sender, PaintEventArgs e)
+        {
+
         }
 
         #endregion

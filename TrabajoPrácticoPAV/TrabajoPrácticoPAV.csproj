@@ -92,6 +92,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -108,6 +109,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controles\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10418324-aviC3B3n-sobre-grecia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gear-wheel-304395_960_720.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
